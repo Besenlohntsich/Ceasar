@@ -18,24 +18,23 @@ public class Main {
         String GT = verschluesseln(Nachricht, Schuessel);
 
         System.out.println("verschlüsselte Nachricht: " + GT);
-<<<<<<< HEAD
-=======
+
         sc.close();
->>>>>>> 28e7c38 (sc.close hinzu gefügt)
+
     }
 
     public static String verschluesseln(String Nachricht,int Schluessel)
     {
         StringBuilder GT = new StringBuilder();
-<<<<<<< HEAD
+
 //speichert die verschlüsselte Nachricht
         Nachricht = Nachricht.toLowerCase();
 //Nachricht in Kleinbuchstaben
-=======
+
         //speichert die verschlüsselte Nachricht
         Nachricht = Nachricht.toLowerCase();
         //Nachricht in Kleinbuchstaben
->>>>>>> 28e7c38 (sc.close hinzu gefügt)
+
 
         for (int i = 0; i < Nachricht.length(); i++)
         //wir gehen durch die Zeichenkette
